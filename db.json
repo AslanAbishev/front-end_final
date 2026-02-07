@@ -1,0 +1,622 @@
+{
+  "articles": [
+    {
+      "id": "art-001",
+      "title": "Understanding React Server Components in 2025",
+      "summary": "A deep dive into how React Server Components change the way we think about rendering and data fetching in modern React applications.",
+      "content": "React Server Components represent a paradigm shift in how we build React applications. Unlike traditional client components, server components run exclusively on the server, allowing direct access to databases, file systems, and other server-side resources without exposing them to the client bundle. This article explores the core concepts, benefits, and practical implementation patterns for RSC in production applications. We'll examine how RSC reduces JavaScript bundle sizes, improves initial page load performance, and simplifies data fetching patterns. The mental model shifts from 'everything renders on the client' to 'render on the server by default, opt into client interactivity when needed.' This has profound implications for application architecture, state management, and the developer experience.",
+      "author": "Sarah Chen",
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/react-server-components",
+      "imageUrl": "https://picsum.photos/seed/art001/800/400",
+      "categoryId": "cat-tech",
+      "tags": [
+        "react",
+        "javascript",
+        "server-components",
+        "web-development"
+      ],
+      "publishedAt": "2025-12-15T10:30:00Z",
+      "readTimeMinutes": 8
+    },
+    {
+      "id": "art-002",
+      "title": "The Rise of AI-Powered Code Editors",
+      "summary": "How artificial intelligence is transforming the developer experience with smarter autocomplete, refactoring suggestions, and automated testing.",
+      "content": "AI-powered code editors have evolved from simple autocomplete tools to sophisticated development partners. Modern AI coding assistants can understand entire codebases, suggest architectural improvements, write tests, and even debug complex issues. This article examines the latest advances in AI-assisted development, comparing tools like GitHub Copilot, Cursor, and Claude Code. We explore how these tools are changing developer workflows, the implications for code quality, and the emerging best practices for human-AI collaboration in software engineering.",
+      "author": "Marcus Johnson",
+      "source": "Wired",
+      "sourceUrl": "https://wired.com/ai-code-editors",
+      "imageUrl": "https://picsum.photos/seed/art002/800/400",
+      "categoryId": "cat-tech",
+      "tags": [
+        "ai",
+        "developer-tools",
+        "coding",
+        "productivity"
+      ],
+      "publishedAt": "2025-12-12T14:00:00Z",
+      "readTimeMinutes": 6
+    },
+    {
+      "id": "art-003",
+      "title": "TypeScript 6.0: What's New and What It Means",
+      "summary": "An overview of the major features in TypeScript 6.0, including pattern matching, improved inference, and the new decorator metadata API.",
+      "content": "TypeScript 6.0 arrives with a host of new features that make the language more expressive and powerful. Pattern matching brings functional programming ergonomics to TypeScript, allowing developers to write more concise and readable conditional logic. The improved type inference engine reduces the need for explicit type annotations in many common patterns. The new decorator metadata API provides a standardized way to attach and retrieve metadata from decorated classes and methods, replacing the experimental reflect-metadata approach. This article walks through each major feature with practical examples and migration tips.",
+      "author": "Elena Petrova",
+      "source": "Dev.to",
+      "sourceUrl": "https://dev.to/typescript-6",
+      "imageUrl": "https://picsum.photos/seed/art003/800/400",
+      "categoryId": "cat-tech",
+      "tags": [
+        "typescript",
+        "javascript",
+        "programming-languages"
+      ],
+      "publishedAt": "2025-12-10T09:15:00Z",
+      "readTimeMinutes": 10
+    },
+    {
+      "id": "art-004",
+      "title": "Web Assembly 2.0 Opens New Frontiers for Browser Apps",
+      "summary": "The next generation of WebAssembly brings garbage collection, threads, and component model support to the browser.",
+      "content": "WebAssembly 2.0 marks a significant milestone in browser capabilities. With native garbage collection support, languages like Java, C#, and Go can now compile to WASM without bundling their own GC runtime, dramatically reducing binary sizes. The threads proposal enables true multi-threaded computation in the browser, opening doors for complex simulations, video processing, and gaming. The component model introduces a standardized way for WASM modules to communicate with each other and with JavaScript, creating a foundation for a polyglot web ecosystem. This article explores each feature and demonstrates practical applications.",
+      "author": "David Kim",
+      "source": "The Verge",
+      "sourceUrl": "https://theverge.com/webassembly-2",
+      "imageUrl": "https://picsum.photos/seed/art004/800/400",
+      "categoryId": "cat-tech",
+      "tags": [
+        "webassembly",
+        "browser",
+        "performance",
+        "web-development"
+      ],
+      "publishedAt": "2025-12-08T16:45:00Z",
+      "readTimeMinutes": 7
+    },
+    {
+      "id": "art-005",
+      "title": "CRISPR Gene Therapy Shows Promise for Alzheimer's",
+      "summary": "Researchers at MIT have demonstrated a CRISPR-based approach that can reduce amyloid plaque buildup in mouse models by 78%.",
+      "content": "In a groundbreaking study published in Nature Medicine, researchers at MIT have shown that a targeted CRISPR gene therapy can significantly reduce amyloid plaque buildup in mouse models of Alzheimer's disease. The therapy works by modifying the APP gene to reduce production of the amyloid-beta 42 peptide, which is believed to be a primary driver of plaque formation. After 12 weeks of treatment, mice showed a 78% reduction in plaque density and significant improvements in cognitive function tests. While the path to human trials remains long, this represents one of the most promising therapeutic approaches to Alzheimer's disease in recent years.",
+      "author": "Dr. Rebecca Torres",
+      "source": "Nature",
+      "sourceUrl": "https://nature.com/crispr-alzheimers",
+      "imageUrl": "https://picsum.photos/seed/art005/800/400",
+      "categoryId": "cat-science",
+      "tags": [
+        "crispr",
+        "gene-therapy",
+        "alzheimers",
+        "neuroscience"
+      ],
+      "publishedAt": "2025-12-14T08:00:00Z",
+      "readTimeMinutes": 12
+    },
+    {
+      "id": "art-006",
+      "title": "James Webb Telescope Discovers New Class of Exoplanets",
+      "summary": "JWST observations reveal a new category of 'hycean' worlds — ocean-covered planets with hydrogen atmospheres that could harbor life.",
+      "content": "The James Webb Space Telescope has identified a new class of exoplanets that could expand our search for extraterrestrial life. These 'hycean' worlds — a portmanteau of hydrogen and ocean — are characterized by thick hydrogen-rich atmospheres covering global oceans. Unlike Earth-like rocky planets, hycean worlds can be up to 2.6 times larger than Earth and still maintain surface conditions suitable for life. JWST's spectroscopic analysis of five candidate hycean worlds has revealed the presence of water vapor, methane, and carbon dioxide in their atmospheres, all potential biosignatures. This discovery significantly broadens the habitable zone concept and increases the number of potentially life-bearing worlds in our galaxy.",
+      "author": "Prof. Amir Patel",
+      "source": "Scientific American",
+      "sourceUrl": "https://scientificamerican.com/jwst-hycean",
+      "imageUrl": "https://picsum.photos/seed/art006/800/400",
+      "categoryId": "cat-science",
+      "tags": [
+        "space",
+        "jwst",
+        "exoplanets",
+        "astrobiology"
+      ],
+      "publishedAt": "2025-12-11T11:30:00Z",
+      "readTimeMinutes": 9
+    },
+    {
+      "id": "art-007",
+      "title": "Quantum Computing Reaches 1000-Qubit Milestone",
+      "summary": "IBM's latest quantum processor achieves 1000 logical qubits with error correction, bringing practical quantum computing closer to reality.",
+      "content": "IBM has announced a significant breakthrough in quantum computing with a processor that achieves 1000 logical qubits with built-in error correction. Previous quantum processors suffered from high error rates that limited their practical utility. The new Condor-X processor uses a novel approach to quantum error correction that groups multiple physical qubits into logical qubits, achieving error rates below the threshold needed for reliable computation. This milestone opens the door to solving real-world optimization problems, simulating molecular interactions for drug discovery, and breaking certain cryptographic schemes. Industry experts estimate that commercially viable quantum advantage could arrive within 3-5 years.",
+      "author": "Li Wei",
+      "source": "MIT Technology Review",
+      "sourceUrl": "https://technologyreview.com/quantum-1000",
+      "imageUrl": "https://picsum.photos/seed/art007/800/400",
+      "categoryId": "cat-science",
+      "tags": [
+        "quantum-computing",
+        "ibm",
+        "physics",
+        "technology"
+      ],
+      "publishedAt": "2025-12-06T13:00:00Z",
+      "readTimeMinutes": 8
+    },
+    {
+      "id": "art-008",
+      "title": "Antarctic Ice Sheet Melting 3x Faster Than Expected",
+      "summary": "New satellite data reveals accelerating ice loss in West Antarctica, with implications for global sea level rise projections.",
+      "content": "A comprehensive analysis of satellite data from 2015 to 2025 reveals that the West Antarctic Ice Sheet is losing mass three times faster than climate models predicted. The study, published in Science, combines data from NASA's ICESat-2 and ESA's CryoSat-2 missions to create the most detailed picture yet of Antarctic ice dynamics. The accelerated melting is driven by warming ocean currents that erode the ice sheet from below, a feedback mechanism that was underrepresented in previous models. If the current trend continues, global sea levels could rise by 30cm more than previously projected by 2100, threatening coastal communities worldwide.",
+      "author": "Dr. Maria Gonzalez",
+      "source": "Nature",
+      "sourceUrl": "https://nature.com/antarctic-ice",
+      "imageUrl": "https://picsum.photos/seed/art008/800/400",
+      "categoryId": "cat-science",
+      "tags": [
+        "climate",
+        "antarctica",
+        "sea-level",
+        "environment"
+      ],
+      "publishedAt": "2025-12-03T07:45:00Z",
+      "readTimeMinutes": 11
+    },
+    {
+      "id": "art-009",
+      "title": "New mRNA Vaccine Platform Shows Universal Flu Protection",
+      "summary": "A single mRNA vaccine targeting conserved influenza proteins provides broad protection against all known flu strains in clinical trials.",
+      "content": "Researchers at the University of Pennsylvania have developed an mRNA-based universal flu vaccine that targets conserved proteins shared across all influenza strains. In Phase II clinical trials involving 10,000 participants, the vaccine demonstrated 87% effectiveness against both seasonal and novel influenza strains, far exceeding the typical 40-60% effectiveness of traditional flu shots. The vaccine works by encoding four conserved epitopes from the influenza nucleoprotein and M2 ion channel, which mutate far less frequently than the surface hemagglutinin protein targeted by conventional vaccines. If Phase III trials are successful, this could eliminate the need for annual flu vaccination.",
+      "author": "Dr. James Park",
+      "source": "The Lancet",
+      "sourceUrl": "https://thelancet.com/universal-flu",
+      "imageUrl": "https://picsum.photos/seed/art009/800/400",
+      "categoryId": "cat-health",
+      "tags": [
+        "vaccine",
+        "mrna",
+        "influenza",
+        "medicine"
+      ],
+      "publishedAt": "2025-12-13T10:00:00Z",
+      "readTimeMinutes": 9
+    },
+    {
+      "id": "art-010",
+      "title": "Mediterranean Diet Linked to 40% Lower Dementia Risk",
+      "summary": "A 20-year longitudinal study confirms that strict adherence to Mediterranean dietary patterns significantly reduces cognitive decline.",
+      "content": "The largest longitudinal study ever conducted on diet and cognitive health has found that strict adherence to a Mediterranean diet reduces dementia risk by 40%. The study followed 50,000 participants across 12 European countries for 20 years, tracking dietary habits, cognitive function, and brain imaging. Participants who consistently followed Mediterranean dietary patterns — rich in olive oil, fish, nuts, whole grains, and vegetables — showed significantly less brain atrophy and better performance on cognitive tests compared to those with typical Western diets. The protective effect was strongest for vascular dementia but also significant for Alzheimer's disease.",
+      "author": "Dr. Sofia Rossi",
+      "source": "WHO Bulletin",
+      "sourceUrl": "https://who.int/mediterranean-diet",
+      "imageUrl": "https://picsum.photos/seed/art010/800/400",
+      "categoryId": "cat-health",
+      "tags": [
+        "diet",
+        "dementia",
+        "nutrition",
+        "brain-health"
+      ],
+      "publishedAt": "2025-12-09T12:30:00Z",
+      "readTimeMinutes": 7
+    },
+    {
+      "id": "art-011",
+      "title": "Breakthrough in Continuous Glucose Monitoring for Non-Diabetics",
+      "summary": "New wearable CGM devices are making blood sugar tracking accessible to the general population, sparking a metabolic health revolution.",
+      "content": "Continuous glucose monitoring (CGM) technology, once reserved for diabetes management, is becoming a mainstream wellness tool. New non-invasive CGM patches from companies like Levels and Dexcom can track blood sugar fluctuations in real-time without the finger pricks or subcutaneous sensors of older devices. Studies show that glucose awareness helps non-diabetic users make better food choices, improve sleep quality, and optimize exercise timing. The technology uses optical sensing to measure interstitial glucose through the skin, providing readings every 5 minutes via a smartphone app. While some endocrinologists caution against over-medicalization of normal glucose variability, the trend represents a broader shift toward personalized metabolic health management.",
+      "author": "Hannah Wright",
+      "source": "Stat News",
+      "sourceUrl": "https://statnews.com/cgm-wellness",
+      "imageUrl": "https://picsum.photos/seed/art011/800/400",
+      "categoryId": "cat-health",
+      "tags": [
+        "wearables",
+        "glucose",
+        "health-tech",
+        "wellness"
+      ],
+      "publishedAt": "2025-12-05T15:20:00Z",
+      "readTimeMinutes": 6
+    },
+    {
+      "id": "art-012",
+      "title": "Exercise Timing Matters: Morning Workouts Boost Metabolism More",
+      "summary": "Research confirms that exercising before 10 AM provides metabolic benefits that evening workouts cannot match.",
+      "content": "A rigorous study published in Cell Metabolism has settled the debate about exercise timing. Researchers at the Karolinska Institute tracked 800 participants over two years, randomly assigning them to morning (6-10 AM) or evening (6-10 PM) exercise groups with identical workout protocols. The morning exercise group showed 23% greater improvements in insulin sensitivity, 18% more fat oxidation, and 15% better VO2 max improvements compared to the evening group. The mechanism appears related to circadian rhythm alignment — morning exercise synergizes with the natural cortisol peak, enhancing metabolic signaling pathways. However, researchers note that any exercise is better than none, regardless of timing.",
+      "author": "Dr. Anders Lindgren",
+      "source": "Reuters Health",
+      "sourceUrl": "https://reuters.com/exercise-timing",
+      "imageUrl": "https://picsum.photos/seed/art012/800/400",
+      "categoryId": "cat-health",
+      "tags": [
+        "exercise",
+        "metabolism",
+        "fitness",
+        "research"
+      ],
+      "publishedAt": "2025-12-01T08:15:00Z",
+      "readTimeMinutes": 5
+    },
+    {
+      "id": "art-013",
+      "title": "Global Startup Funding Rebounds to Pre-2022 Levels",
+      "summary": "Venture capital investments hit $340B in 2025, driven by AI startups and climate tech, signaling the end of the funding winter.",
+      "content": "Global startup funding has rebounded dramatically in 2025, reaching $340 billion — surpassing the pre-downturn levels of 2021. The recovery is largely driven by explosive investment in AI infrastructure, generative AI applications, and climate technology. AI startups alone attracted $120 billion, with notable mega-rounds for companies building custom silicon, foundation models, and enterprise AI platforms. Climate tech saw a 45% increase in funding, reflecting growing urgency around clean energy transition. However, the recovery is uneven: fintech and consumer social remain below peak levels, and the bar for funding has risen significantly, with investors demanding stronger unit economics and shorter paths to profitability.",
+      "author": "Michael Torres",
+      "source": "Bloomberg",
+      "sourceUrl": "https://bloomberg.com/startup-funding",
+      "imageUrl": "https://picsum.photos/seed/art013/800/400",
+      "categoryId": "cat-business",
+      "tags": [
+        "venture-capital",
+        "startups",
+        "ai",
+        "investment"
+      ],
+      "publishedAt": "2025-12-14T09:00:00Z",
+      "readTimeMinutes": 7
+    },
+    {
+      "id": "art-014",
+      "title": "Remote Work Policies Stabilize: The Hybrid Model Wins",
+      "summary": "Data from 10,000 companies shows that 3-day in-office hybrid models deliver the best balance of productivity and employee satisfaction.",
+      "content": "After years of experimentation, corporate remote work policies have largely stabilized around a hybrid model. A comprehensive analysis by McKinsey of 10,000 companies across 30 industries found that organizations mandating 3 days in-office per week achieve the optimal balance: employee satisfaction scores are only 5% lower than fully remote companies, while collaboration metrics and innovation output are 20% higher. Fully remote companies report challenges with onboarding, mentoring, and spontaneous collaboration. Meanwhile, companies requiring 5 days in-office face 35% higher attrition rates. The data suggests that Tuesday, Wednesday, and Thursday are the most effective in-office days, with Monday and Friday being the most productive remote days.",
+      "author": "Rachel Kim",
+      "source": "Forbes",
+      "sourceUrl": "https://forbes.com/hybrid-work",
+      "imageUrl": "https://picsum.photos/seed/art014/800/400",
+      "categoryId": "cat-business",
+      "tags": [
+        "remote-work",
+        "hybrid",
+        "workplace",
+        "management"
+      ],
+      "publishedAt": "2025-12-07T11:00:00Z",
+      "readTimeMinutes": 6
+    },
+    {
+      "id": "art-015",
+      "title": "Apple's Mixed Reality Headset Drives $50B Spatial Computing Market",
+      "summary": "Apple Vision Pro sales exceed expectations, catalyzing a spatial computing ecosystem worth $50 billion in enterprise and consumer applications.",
+      "content": "Apple's Vision Pro has exceeded sales expectations in its second year, catalyzing a spatial computing market now valued at $50 billion. Enterprise adoption has been particularly strong, with architecture firms, medical institutions, and manufacturing companies deploying Vision Pro for design review, surgical planning, and remote collaboration. The app ecosystem has grown to over 10,000 spatial computing apps, with productivity tools leading the category. Competing devices from Meta, Samsung, and Google have further expanded the market. Analysts predict spatial computing will become a $200 billion market by 2030, driven by improvements in display technology, battery life, and social acceptance of headset use.",
+      "author": "Jessica Wong",
+      "source": "CNBC",
+      "sourceUrl": "https://cnbc.com/spatial-computing",
+      "imageUrl": "https://picsum.photos/seed/art015/800/400",
+      "categoryId": "cat-business",
+      "tags": [
+        "apple",
+        "mixed-reality",
+        "spatial-computing",
+        "enterprise"
+      ],
+      "publishedAt": "2025-12-04T14:30:00Z",
+      "readTimeMinutes": 8
+    },
+    {
+      "id": "art-016",
+      "title": "Central Banks Explore Digital Currency Interoperability",
+      "summary": "20 central banks collaborate on a standardized CBDC framework enabling seamless cross-border digital currency transactions.",
+      "content": "Twenty central banks, including the Federal Reserve, ECB, and People's Bank of China, have agreed to collaborate on a standardized framework for Central Bank Digital Currency (CBDC) interoperability. The framework, known as Project Nexus, aims to enable seamless cross-border digital currency transactions with settlement times under 10 seconds, compared to the 2-5 days typical of traditional correspondent banking. The project addresses key challenges including exchange rate determination, privacy standards, and anti-money laundering compliance across jurisdictions. Pilot transactions between Singapore, Switzerland, and France have already demonstrated the feasibility of the approach, processing $500 million in test transactions.",
+      "author": "Robert Chang",
+      "source": "Financial Times",
+      "sourceUrl": "https://ft.com/cbdc-interop",
+      "imageUrl": "https://picsum.photos/seed/art016/800/400",
+      "categoryId": "cat-business",
+      "tags": [
+        "cbdc",
+        "cryptocurrency",
+        "banking",
+        "fintech"
+      ],
+      "publishedAt": "2025-11-30T16:00:00Z",
+      "readTimeMinutes": 9
+    },
+    {
+      "id": "art-017",
+      "title": "The New Golden Age of Television: Streaming Wars Mature",
+      "summary": "As streaming platforms consolidate, content quality reaches new heights with bigger budgets and more creative freedom for showrunners.",
+      "content": "The streaming industry has entered a new phase of maturity as the initial 'streaming wars' give way to a more sustainable ecosystem. After a period of consolidation — Warner Bros. Discovery merged with Paramount, while Apple acquired Lionsgate's content library — the remaining platforms are investing in fewer but higher-quality productions. Average per-episode budgets for prestige dramas have reached $25 million, rivaling feature film production values. Showrunners report greater creative freedom as platforms shift from quantity-driven subscriber acquisition to quality-driven retention strategies. The result is a renaissance in serialized storytelling, with critics comparing the current era favorably to the golden age of HBO in the early 2000s.",
+      "author": "Amanda Foster",
+      "source": "The Guardian",
+      "sourceUrl": "https://theguardian.com/streaming-golden-age",
+      "imageUrl": "https://picsum.photos/seed/art017/800/400",
+      "categoryId": "cat-culture",
+      "tags": [
+        "streaming",
+        "television",
+        "entertainment",
+        "media"
+      ],
+      "publishedAt": "2025-12-13T17:00:00Z",
+      "readTimeMinutes": 6
+    },
+    {
+      "id": "art-018",
+      "title": "AI-Generated Art Controversy Reaches the Louvre",
+      "summary": "The Louvre's decision to exhibit AI-collaborative artwork sparks fierce debate about authorship, creativity, and the future of art institutions.",
+      "content": "The Louvre has ignited a global debate by exhibiting a series of artworks created through human-AI collaboration. The exhibition, titled 'Symbiosis,' features works where artists used AI tools to generate initial compositions, then extensively modified and combined them with traditional techniques. Supporters argue the show recognizes a legitimate new medium and artistic practice, while critics contend that displaying AI-assisted work alongside centuries of human masterpieces diminishes the museum's integrity. The controversy has prompted other major museums to develop formal policies on AI art, and has raised profound questions about authorship, copyright, and what constitutes creative expression in the age of artificial intelligence.",
+      "author": "Pierre Dubois",
+      "source": "The New York Times",
+      "sourceUrl": "https://nytimes.com/louvre-ai-art",
+      "imageUrl": "https://picsum.photos/seed/art018/800/400",
+      "categoryId": "cat-culture",
+      "tags": [
+        "ai-art",
+        "museums",
+        "controversy",
+        "creativity"
+      ],
+      "publishedAt": "2025-12-10T10:30:00Z",
+      "readTimeMinutes": 8
+    },
+    {
+      "id": "art-019",
+      "title": "K-Pop's Global Dominance Reshapes the Music Industry",
+      "summary": "Korean pop music now accounts for 15% of global music revenue, forcing Western labels to adopt K-pop's training and marketing strategies.",
+      "content": "K-pop's influence on the global music industry has reached unprecedented levels, with Korean pop acts now accounting for 15% of worldwide music revenue — up from 4% just five years ago. The success has prompted Western record labels to adopt elements of K-pop's systematic approach to artist development, including intensive training programs, strategic social media engagement, and elaborate fan community management. BTS's parent company HYBE has acquired three Western labels and launched a global audition platform. Meanwhile, the K-pop training model has expanded beyond Korea, with entertainment companies establishing academies in Los Angeles, London, and Tokyo. Critics debate whether this industrialization of pop music enhances or diminishes artistic authenticity.",
+      "author": "Yuki Tanaka",
+      "source": "Rolling Stone",
+      "sourceUrl": "https://rollingstone.com/kpop-global",
+      "imageUrl": "https://picsum.photos/seed/art019/800/400",
+      "categoryId": "cat-culture",
+      "tags": [
+        "kpop",
+        "music-industry",
+        "global-culture",
+        "entertainment"
+      ],
+      "publishedAt": "2025-12-02T13:15:00Z",
+      "readTimeMinutes": 7
+    },
+    {
+      "id": "art-020",
+      "title": "Electric Vehicles Reach 30% of Global New Car Sales",
+      "summary": "EV adoption accelerates as battery costs drop below $80/kWh, making electric vehicles price-competitive with ICE cars without subsidies.",
+      "content": "Electric vehicles have reached a historic milestone, accounting for 30% of all new car sales globally in 2025. The tipping point was driven primarily by falling battery costs, which dropped below $80 per kilowatt-hour — the threshold at which EVs achieve purchase price parity with internal combustion engine vehicles without government subsidies. China leads adoption at 45%, followed by Europe at 35% and the US at 25%. The used EV market has also matured, with second-hand electric vehicles now offering compelling value propositions. Charging infrastructure has expanded to over 5 million public charging points worldwide. However, challenges remain in grid capacity, rare earth mineral supply chains, and battery recycling infrastructure.",
+      "author": "Thomas Mueller",
+      "source": "Reuters",
+      "sourceUrl": "https://reuters.com/ev-milestone",
+      "imageUrl": "https://picsum.photos/seed/art020/800/400",
+      "categoryId": "cat-tech",
+      "tags": [
+        "electric-vehicles",
+        "automotive",
+        "clean-energy",
+        "batteries"
+      ],
+      "publishedAt": "2025-12-15T08:00:00Z",
+      "readTimeMinutes": 7
+    },
+    {
+      "id": "art-021",
+      "title": "Microplastics Found in Human Brain Tissue for the First Time",
+      "summary": "Researchers detect microplastic particles in brain tissue samples, raising urgent questions about the blood-brain barrier and neurological health.",
+      "content": "In a concerning discovery, researchers at the University of Vienna have detected microplastic particles in human brain tissue for the first time. The study analyzed post-mortem brain samples from 30 individuals and found nanoplastic particles in 90% of samples, with concentrations highest in the hippocampus and frontal cortex. The particles, primarily polyethylene and polystyrene, appear to cross the blood-brain barrier through mechanisms not yet fully understood. While the health implications remain unclear, animal studies have shown that brain-deposited microplastics can trigger neuroinflammation and disrupt neurotransmitter signaling. The findings add urgency to the global effort to reduce plastic pollution and develop biodegradable alternatives.",
+      "author": "Dr. Klaus Fischer",
+      "source": "The Lancet",
+      "sourceUrl": "https://thelancet.com/microplastics-brain",
+      "imageUrl": "https://picsum.photos/seed/art021/800/400",
+      "categoryId": "cat-science",
+      "tags": [
+        "microplastics",
+        "neuroscience",
+        "pollution",
+        "health"
+      ],
+      "publishedAt": "2025-12-12T07:30:00Z",
+      "readTimeMinutes": 10
+    },
+    {
+      "id": "art-022",
+      "title": "Sleep Science Breakthrough: Targeted Memory Reactivation",
+      "summary": "Scientists develop a method to enhance specific memories during sleep using precisely timed audio cues, boosting learning by 40%.",
+      "content": "Neuroscientists at Northwestern University have refined a technique called Targeted Memory Reactivation (TMR) that can selectively strengthen specific memories during sleep. By playing carefully timed audio cues associated with learning material during slow-wave sleep, researchers boosted retention of targeted information by 40% compared to control groups. The technique works by reactivating specific neural patterns during the consolidation phase of sleep, essentially 'replaying' learning experiences at the optimal moment. A consumer-grade EEG headband paired with a smartphone app is now being developed to bring TMR to students and professionals. While experts caution that the technology supplements rather than replaces active learning, the implications for education and skill acquisition are significant.",
+      "author": "Dr. Olivia Harper",
+      "source": "Scientific American",
+      "sourceUrl": "https://scientificamerican.com/sleep-memory",
+      "imageUrl": "https://picsum.photos/seed/art022/800/400",
+      "categoryId": "cat-health",
+      "tags": [
+        "sleep",
+        "memory",
+        "neuroscience",
+        "learning"
+      ],
+      "publishedAt": "2025-11-28T09:00:00Z",
+      "readTimeMinutes": 8
+    },
+    {
+      "id": "art-023",
+      "title": "The Great Decoupling: Tech Sector Splits from Traditional Markets",
+      "summary": "Technology stocks now move independently of broader market indices, creating new challenges for portfolio diversification strategies.",
+      "content": "A growing divergence between technology stocks and traditional market indices is reshaping investment strategies. The correlation between the Nasdaq-100 and the S&P 500 has dropped to its lowest level in 25 years, as AI-driven tech companies chart their own course independent of macroeconomic factors. This 'Great Decoupling' reflects the unique growth dynamics of AI and cloud computing companies, whose revenues are growing 30-50% annually regardless of GDP growth. Traditional portfolio theory, which relies on asset correlations for diversification, is being challenged. Financial advisors are developing new allocation models that treat technology as a distinct asset class with its own risk-return profile, separate from growth or value equity categories.",
+      "author": "Nathan Brooks",
+      "source": "Bloomberg",
+      "sourceUrl": "https://bloomberg.com/tech-decoupling",
+      "imageUrl": "https://picsum.photos/seed/art023/800/400",
+      "categoryId": "cat-business",
+      "tags": [
+        "investing",
+        "tech-stocks",
+        "markets",
+        "portfolio"
+      ],
+      "publishedAt": "2025-11-25T14:00:00Z",
+      "readTimeMinutes": 8
+    },
+    {
+      "id": "art-024",
+      "title": "FIFA Club World Cup 2025 Breaks Viewership Records",
+      "summary": "The expanded 32-team Club World Cup attracts 2 billion viewers globally, establishing itself as the premier club football event.",
+      "content": "The 2025 FIFA Club World Cup, held in the United States with an expanded 32-team format, has shattered viewership records with over 2 billion cumulative viewers across the tournament. The event, featuring top clubs from every confederation, delivered memorable upsets and showcased the growing competitive balance in global club football. The final between Real Madrid and Flamengo drew 800 million viewers, making it the most-watched club football match in history. The tournament's success has validated FIFA's expansion strategy and generated $4 billion in revenue from broadcasting rights, sponsorships, and ticket sales. Critics who initially opposed the expanded format have acknowledged that the tournament has filled a void in the international club football calendar.",
+      "author": "Carlos Mendez",
+      "source": "ESPN",
+      "sourceUrl": "https://espn.com/club-world-cup",
+      "imageUrl": "https://picsum.photos/seed/art024/800/400",
+      "categoryId": "cat-sports",
+      "tags": [
+        "football",
+        "fifa",
+        "club-world-cup",
+        "sports"
+      ],
+      "publishedAt": "2025-12-15T20:00:00Z",
+      "readTimeMinutes": 5
+    },
+    {
+      "id": "art-025",
+      "title": "Edge Computing Transforms Real-Time AI Applications",
+      "summary": "Advances in edge computing hardware enable AI inference at the network edge, reducing latency and enabling new categories of real-time applications.",
+      "content": "Edge computing has reached a maturity inflection point, with purpose-built AI inference chips enabling complex machine learning models to run at the network edge with sub-millisecond latency. This transformation is enabling new categories of applications that were impossible with cloud-dependent architectures: real-time industrial quality inspection, autonomous drone navigation, and augmented reality experiences that respond instantaneously to user actions. NVIDIA's Jetson Orin successor and Qualcomm's new edge AI platform can run 100-billion-parameter models locally, eliminating the round-trip to cloud servers. The edge AI market is projected to reach $60 billion by 2027, driven by manufacturing, healthcare, and smart city deployments. Privacy-sensitive applications particularly benefit, as data never leaves the local device.",
+      "author": "Priya Sharma",
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/edge-computing-ai",
+      "imageUrl": "https://picsum.photos/seed/art025/800/400",
+      "categoryId": "cat-tech",
+      "tags": [
+        "edge-computing",
+        "ai",
+        "hardware",
+        "real-time"
+      ],
+      "publishedAt": "2025-11-29T11:45:00Z",
+      "readTimeMinutes": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-tech",
+      "name": "Technology",
+      "slug": "technology",
+      "description": "Latest in tech and software development",
+      "color": "#3B82F6",
+      "articleCount": 7
+    },
+    {
+      "id": "cat-science",
+      "name": "Science",
+      "slug": "science",
+      "description": "Scientific discoveries and research",
+      "color": "#10B981",
+      "articleCount": 5
+    },
+    {
+      "id": "cat-business",
+      "name": "Business",
+      "slug": "business",
+      "description": "Business news and market analysis",
+      "color": "#F59E0B",
+      "articleCount": 5
+    },
+    {
+      "id": "cat-health",
+      "name": "Health",
+      "slug": "health",
+      "description": "Health, medicine, and wellness",
+      "color": "#EF4444",
+      "articleCount": 5
+    },
+    {
+      "id": "cat-culture",
+      "name": "Culture",
+      "slug": "culture",
+      "description": "Arts, entertainment, and society",
+      "color": "#8B5CF6",
+      "articleCount": 3
+    },
+    {
+      "id": "cat-sports",
+      "name": "Sports",
+      "slug": "sports",
+      "description": "Sports news and highlights",
+      "color": "#F97316",
+      "articleCount": 1
+    }
+  ],
+  "users": [
+    {
+      "id": "user-001",
+      "username": "johndoe",
+      "email": "john@example.com",
+      "password": "password123",
+      "displayName": "John Doe",
+      "avatarUrl": "https://i.pravatar.cc/150?u=johndoe",
+      "createdAt": "2025-01-15T08:00:00Z"
+    },
+    {
+      "id": "user-002",
+      "username": "janedoe",
+      "email": "jane@example.com",
+      "password": "password123",
+      "displayName": "Jane Doe",
+      "avatarUrl": "https://i.pravatar.cc/150?u=janedoe",
+      "createdAt": "2025-02-20T14:30:00Z"
+    },
+    {
+      "id": "user-1770454187323",
+      "username": "user",
+      "email": "255134@astanait.edu.kz",
+      "password": "user12345",
+      "displayName": "user",
+      "avatarUrl": "https://i.pravatar.cc/150?u=user",
+      "createdAt": "2026-02-07T08:49:47.323Z"
+    }
+  ],
+  "bookmarks": [
+    {
+      "id": "bm-001",
+      "userId": "user-001",
+      "articleId": "art-001",
+      "createdAt": "2025-12-16T09:00:00Z",
+      "notes": ""
+    },
+    {
+      "id": "bm-002",
+      "userId": "user-001",
+      "articleId": "art-005",
+      "createdAt": "2025-12-17T11:30:00Z",
+      "notes": "Great article on CRISPR"
+    },
+    {
+      "id": "bm-003",
+      "userId": "user-002",
+      "articleId": "art-003",
+      "createdAt": "2025-12-18T15:00:00Z",
+      "notes": ""
+    },
+    {
+      "id": "bm-004",
+      "userId": "user-001",
+      "articleId": "art-013",
+      "createdAt": "2025-12-19T08:00:00Z",
+      "notes": "Interesting funding data"
+    }
+  ],
+  "userPreferences": [
+    {
+      "id": "pref-001",
+      "userId": "user-001",
+      "preferredCategories": [
+        "cat-tech",
+        "cat-science"
+      ],
+      "displayMode": "grid",
+      "articlesPerPage": 10,
+      "theme": "light"
+    },
+    {
+      "id": "pref-002",
+      "userId": "user-002",
+      "preferredCategories": [
+        "cat-business",
+        "cat-culture"
+      ],
+      "displayMode": "list",
+      "articlesPerPage": 20,
+      "theme": "dark"
+    },
+    {
+      "id": "pref-1770454187550",
+      "userId": "user-1770454187323",
+      "preferredCategories": [
+        "cat-sports",
+        "cat-tech"
+      ],
+      "displayMode": "grid",
+      "articlesPerPage": 10,
+      "theme": "light"
+    }
+  ]
+}
